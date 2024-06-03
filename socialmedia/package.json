@@ -1,5 +1,5 @@
 {
-  "name": "Teach2Give-DrizzleORM",
+  "name": "socialmedia",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -26,6 +26,7 @@
     "@types/pg": "^8.11.6",
     "drizzle-kit": "^0.22.1",
     "tsx": "^4.11.2",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "@faker-js/faker": "^8.4.1"
   }
 }

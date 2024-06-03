@@ -14,3 +14,9 @@ export const ProfilesTable = pgTable("profiles", {
     bio: varchar("bio", { length: 256 }),
     userId: integer("user_id").notNull().references(() => UsersTable.id, { onDelete: "cascade" }), //fk ref id in users table
 });
+
+
+export type TIUser = typeof UsersTable.$inferInsert;
+export type TSUser = typeof UsersTable.$inferSelect;
+export type TIProfile = typeof ProfilesTable.$inferInsert;
+export type TSProfile = typeof ProfilesTable.$inferSelect;
