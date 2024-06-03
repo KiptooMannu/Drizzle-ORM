@@ -256,8 +256,6 @@ export const OrderTableRelations = relations(OrderTable, ({ one }) => ({
 }));
 
 ```
-## step 3:  Visit https://neon.tech/ and create a postgres db & project. copy the connection string and paste it in the .env
-
 ## step 4: inside drizzle folder create a db.ts file
 ```typescript
 import "dotenv/config";
